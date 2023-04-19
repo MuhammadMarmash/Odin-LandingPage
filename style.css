@@ -29,6 +29,11 @@ ul {
     font-weight: bolder;
 }
 
+#links li a {
+    color: white;
+    text-decoration: none;
+}
+
 .left p {
     margin: 5px;
     font-size: 18px;
@@ -62,6 +67,7 @@ button {
 .content {
     display: flex;
     justify-content: space-around;
+    align-self: center;
     margin: 100px;
     gap: 30px;
 }
